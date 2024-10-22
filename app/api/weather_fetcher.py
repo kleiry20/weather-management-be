@@ -28,7 +28,8 @@ async def fetch_weather_data():
                 "feels_like_celsius": round(feels_like_celsius, 2),
                 "weather": data.get('weather', [{}])[0].get('description', 'N/A'),
                 "main": data.get('main', {}),
-                "dt": data.get('dt')
+                "dt": data.get('dt'),
+                "icon":data.get('weather', [{}])[0].get('icon')
             }
         else:
             print(f"Error fetching data for {city}: {response.json()}")

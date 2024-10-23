@@ -18,11 +18,14 @@ def save_weather_data_to_file():
 
 def fetch_all_weather_data():
     print("Scheduler is fetching weather data...")
+
+    # Loop through each city and fetch data sequentially
     for city in cities:
         fetch_weather_data(city)
+        time.sleep(10)  # Adds a small delay between each API call to avoid rate limits
+
     save_weather_data_to_file()
     print("Fetched data for all cities and saved.")
-
 
 def fetch_weather_data(city):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"

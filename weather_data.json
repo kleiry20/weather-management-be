@@ -1,158 +1,254 @@
 {
-    "Delhi": [
-        {
-            "date": "2024-10-23",
-            "time": "16:00:01",
-            "temperature_celsius": 32.05,
-            "feels_like_celsius": 31.53,
-            "weather": "haze",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "15:59:09",
-            "temperature_celsius": 32.05,
-            "feels_like_celsius": 31.53,
-            "weather": "haze",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "16:10:41",
-            "temperature_celsius": 32.05,
-            "feels_like_celsius": 31.53,
-            "weather": "haze",
-            "icon": "50d"
-        }
-    ],
-    "Mumbai": [
-        {
-            "date": "2024-10-23",
-            "time": "15:59:09",
-            "temperature_celsius": 32.99,
-            "feels_like_celsius": 39.99,
-            "weather": "smoke",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "15:58:40",
-            "temperature_celsius": 32.99,
-            "feels_like_celsius": 39.99,
-            "weather": "smoke",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "16:09:49",
-            "temperature_celsius": 32.99,
-            "feels_like_celsius": 39.99,
-            "weather": "smoke",
-            "icon": "50d"
-        }
-    ],
-    "Chennai": [
-        {
-            "date": "2024-10-23",
-            "time": "16:03:56",
-            "temperature_celsius": 32.17,
-            "feels_like_celsius": 39.17,
-            "weather": "haze",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "16:02:43",
-            "temperature_celsius": 32.32,
-            "feels_like_celsius": 39.32,
-            "weather": "haze",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "16:02:43",
-            "temperature_celsius": 32.32,
-            "feels_like_celsius": 39.32,
-            "weather": "haze",
-            "icon": "50d"
-        }
-    ],
-    "Bangalore": [
-        {
-            "date": "2024-10-23",
-            "time": "16:03:10",
-            "temperature_celsius": 26.74,
-            "feels_like_celsius": 28.79,
-            "weather": "moderate rain",
-            "icon": "10d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "16:04:44",
-            "temperature_celsius": 26.74,
-            "feels_like_celsius": 28.79,
-            "weather": "moderate rain",
-            "icon": "10d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "16:04:44",
-            "temperature_celsius": 26.74,
-            "feels_like_celsius": 28.79,
-            "weather": "moderate rain",
-            "icon": "10d"
-        }
-    ],
-    "Kolkata": [
-        {
-            "date": "2024-10-23",
-            "time": "16:03:25",
-            "temperature_celsius": 25.97,
-            "feels_like_celsius": 25.97,
-            "weather": "haze",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "15:58:07",
-            "temperature_celsius": 25.97,
-            "feels_like_celsius": 25.97,
-            "weather": "haze",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "16:08:46",
-            "temperature_celsius": 25.97,
-            "feels_like_celsius": 25.97,
-            "weather": "haze",
-            "icon": "50d"
-        }
-    ],
-    "Hyderabad": [
-        {
-            "date": "2024-10-23",
-            "time": "15:59:00",
-            "temperature_celsius": 30.23,
-            "feels_like_celsius": 30.62,
-            "weather": "haze",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "15:59:00",
-            "temperature_celsius": 30.23,
-            "feels_like_celsius": 30.62,
-            "weather": "haze",
-            "icon": "50d"
-        },
-        {
-            "date": "2024-10-23",
-            "time": "15:59:00",
-            "temperature_celsius": 30.23,
-            "feels_like_celsius": 30.62,
-            "weather": "haze",
-            "icon": "50d"
-        }
-    ]
+  "Delhi": [
+    {
+      "date": "2024-10-23",
+      "time": "17:22:30",
+      "temperature_celsius": 31.05,
+      "feels_like_celsius": 30.56,
+      "weather": "haze",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:22:30",
+      "temperature_celsius": 31.05,
+      "feels_like_celsius": 30.56,
+      "weather": "haze",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:22:30",
+      "temperature_celsius": 31.05,
+      "feels_like_celsius": 30.56,
+      "weather": "haze",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:22:30",
+      "temperature_celsius": 31.05,
+      "feels_like_celsius": 30.56,
+      "weather": "haze",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:28:51",
+      "temperature_celsius": 31.05,
+      "feels_like_celsius": 30.56,
+      "weather": "haze",
+      "icon": "50d"
+    }
+  ],
+  "Mumbai": [
+    {
+      "date": "2024-10-23",
+      "time": "17:20:31",
+      "temperature_celsius": 31.99,
+      "feels_like_celsius": 37.67,
+      "weather": "haze",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:20:31",
+      "temperature_celsius": 31.99,
+      "feels_like_celsius": 37.67,
+      "weather": "haze",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:19:49",
+      "temperature_celsius": 31.99,
+      "feels_like_celsius": 37.67,
+      "weather": "haze",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:19:49",
+      "temperature_celsius": 31.99,
+      "feels_like_celsius": 37.67,
+      "weather": "haze",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:31:45",
+      "temperature_celsius": 31.99,
+      "feels_like_celsius": 37.67,
+      "weather": "haze",
+      "icon": "50d"
+    }
+  ],
+  "Chennai": [
+    {
+      "date": "2024-10-23",
+      "time": "17:22:41",
+      "temperature_celsius": 30.65,
+      "feels_like_celsius": 37.65,
+      "weather": "mist",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:22:41",
+      "temperature_celsius": 30.65,
+      "feels_like_celsius": 37.65,
+      "weather": "mist",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:27:57",
+      "temperature_celsius": 30.59,
+      "feels_like_celsius": 37.59,
+      "weather": "mist",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:27:57",
+      "temperature_celsius": 30.59,
+      "feels_like_celsius": 37.59,
+      "weather": "mist",
+      "icon": "50d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:27:57",
+      "temperature_celsius": 30.59,
+      "feels_like_celsius": 37.59,
+      "weather": "mist",
+      "icon": "50d"
+    }
+  ],
+  "Bangalore": [
+    {
+      "date": "2024-10-23",
+      "time": "17:20:49",
+      "temperature_celsius": 23.61,
+      "feels_like_celsius": 24.19,
+      "weather": "light rain",
+      "icon": "10d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:20:49",
+      "temperature_celsius": 23.61,
+      "feels_like_celsius": 24.19,
+      "weather": "light rain",
+      "icon": "10d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:28:42",
+      "temperature_celsius": 23.61,
+      "feels_like_celsius": 24.17,
+      "weather": "light rain",
+      "icon": "10d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:28:42",
+      "temperature_celsius": 23.61,
+      "feels_like_celsius": 24.17,
+      "weather": "light rain",
+      "icon": "10d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:28:42",
+      "temperature_celsius": 23.61,
+      "feels_like_celsius": 24.17,
+      "weather": "light rain",
+      "icon": "10d"
+    }
+  ],
+  "Kolkata": [
+    {
+      "date": "2024-10-23",
+      "time": "17:25:27",
+      "temperature_celsius": 25.97,
+      "feels_like_celsius": 25.97,
+      "weather": "haze",
+      "icon": "50n"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:25:27",
+      "temperature_celsius": 25.97,
+      "feels_like_celsius": 25.97,
+      "weather": "haze",
+      "icon": "50n"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:18:39",
+      "temperature_celsius": 25.97,
+      "feels_like_celsius": 25.97,
+      "weather": "haze",
+      "icon": "50n"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:18:39",
+      "temperature_celsius": 25.97,
+      "feels_like_celsius": 25.97,
+      "weather": "haze",
+      "icon": "50n"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:29:23",
+      "temperature_celsius": 25.97,
+      "feels_like_celsius": 25.97,
+      "weather": "haze",
+      "icon": "50n"
+    }
+  ],
+  "Hyderabad": [
+    {
+      "date": "2024-10-23",
+      "time": "17:18:49",
+      "temperature_celsius": 25.32,
+      "feels_like_celsius": 25.6,
+      "weather": "broken clouds",
+      "icon": "04d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:18:49",
+      "temperature_celsius": 25.32,
+      "feels_like_celsius": 25.6,
+      "weather": "broken clouds",
+      "icon": "04d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:20:55",
+      "temperature_celsius": 25.32,
+      "feels_like_celsius": 25.6,
+      "weather": "broken clouds",
+      "icon": "04d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:20:55",
+      "temperature_celsius": 25.32,
+      "feels_like_celsius": 25.6,
+      "weather": "broken clouds",
+      "icon": "04d"
+    },
+    {
+      "date": "2024-10-23",
+      "time": "17:20:55",
+      "temperature_celsius": 25.32,
+      "feels_like_celsius": 25.6,
+      "weather": "broken clouds",
+      "icon": "04d"
+    }
+  ]
 }

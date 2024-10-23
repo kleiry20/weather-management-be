@@ -1,33 +1,37 @@
-# weather_fetcher.py
-import requests
-import os
-from datetime import datetime
-from dotenv import load_dotenv
-import json
-import time
+# backup code:
+# fetches weather data for all cities, stores into a dictionary
+# writes that stored data into a json file
+# calculates aggregates, stores into a dictionary
+# can check both weather data and aggregates at endpoints: /weather_data and /weather_aggregates
 
-load_dotenv()
-api_key = os.getenv("OPENWEATHER_API_KEY")
 
-cities = ["Delhi", "Mumbai", "Chennai", "Bangalore", "Kolkata", "Hyderabad"]
-weather_data_store = {city: [] for city in cities}
+# weather_fetcher.py ------
+# import requests
+# import os
+# from datetime import datetime
+# from dotenv import load_dotenv
+# import json
+# import time
 
-def save_weather_data_to_file():
+# load_dotenv()
+# api_key = os.getenv("OPENWEATHER_API_KEY")
+
+# cities = ["Delhi", "Mumbai", "Chennai", "Bangalore", "Kolkata", "Hyderabad"]
+# weather_data_store = {city: [] for city in cities}
+
+def save_weather_data_to_file2():
     with open('weather_data.json', 'w') as f:
         json.dump(weather_data_store, f, indent=4)
 
-def fetch_all_weather_data():
+def fetch_all_weather_data2():
     print("Scheduler is fetching weather data...")
-
-    # Loop through each city and fetch data sequentially
     for city in cities:
         fetch_weather_data(city)
-        time.sleep(10)  # Adds a small delay between each API call to avoid rate limits
-
-    save_weather_data_to_file()
+    save_weather_data_to_file2()
     print("Fetched data for all cities and saved.")
 
-def fetch_weather_data(city):
+
+def fetch_weather_data2(city):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
     response = requests.get(url)
     
@@ -62,7 +66,7 @@ def fetch_weather_data(city):
         print(f"Error fetching data for {city}: {response.json()}")
 
 
-def calculate_aggregates():
+def calculate_aggregates2():
     aggregates = {}
 
     for city, data_points in weather_data_store.items():
@@ -78,3 +82,30 @@ def calculate_aggregates():
             }
     
     return aggregates
+
+
+# scheduler------
+# from apscheduler.schedulers.background import BackgroundScheduler
+# from app.api.weather_fetcher import fetch_all_weather_data
+
+# # Create a scheduler instance
+# scheduler = BackgroundScheduler()
+
+# # Schedule the `fetch_all_weather_data` function every 2 minutes
+# scheduler.add_job(fetch_all_weather_data, 'interval', minutes=2)
+
+# def start_weather_scheduler():
+#     print("Starting the background weather scheduler...")
+
+#     # Manually trigger the first fetch immediately
+#     fetch_all_weather_data()
+
+#     # Start the scheduler for subsequent intervals
+#     scheduler.start()
+
+
+# main------
+# Start the weather scheduler when the app starts
+# @app.on_event("startup")
+# def startup_event():
+#     start_weather_scheduler()  # Start the background scheduler
